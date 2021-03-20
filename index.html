@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("car_racing.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+h1,h2,h3,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Moving Cars On</title>
+</head>
+
+<body onload="add();">
+<center>
+<h3>Moving Cars On Tracks</h3>
+
+<h4>Game Status : <span id="game_status"></span></h4>
+
+<canvas id="myCanvas" width="800" height="600">
+</canvas>
+
+<h4>
+	<b class="text-danger">NOTE : </b> To Control Car1 use Up,Down,left,right arrow keys and to control Car2 use W,Z,A,S keys.
+</h4>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
